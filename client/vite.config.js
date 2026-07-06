@@ -7,6 +7,7 @@ export default defineConfig({
   plugins: [react()
     , tailwindcss()
   ],
+  base : process.env.VITE_BASE_URL || '/Quick-Teams',
     server: {
     proxy: {
       "/api": "http://localhost:5000", 
