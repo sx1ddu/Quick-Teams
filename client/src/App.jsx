@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Landing from "./Pages/Landing";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
+import Login from "./Pages/Login";
+import Signup from "./Pages/Signup";
 import Dashboard from "./Pages/Dashboard";
-import Matchmaking from "./pages/Matchmaking";
-import Teams from "./pages/Teams";
-import Community from "./pages/Community";
+import Matchmaking from "./Pages/Matchmaking";
+import Teams from "./Pages/Teams";
+import Community from "./Pages/Community";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import ProfileForm from "./Pages/ProfileInput"; 
